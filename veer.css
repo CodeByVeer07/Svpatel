@@ -2,6 +2,7 @@ body{
     background-image:linear-gradient(rgba(4, 205, 219, 0.644),rgb(30, 1, 68)) ;
    background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
     
 }  
 .nav{
