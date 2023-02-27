@@ -134,16 +134,14 @@
     color: black;;
 }
 .fourty{
-    height: 20vh;
+    height: 7rem;
     background-color: silver;
     border-radius: 10px;
+    
 }
 .foot{
     text-align: center;
-    position: relative;
-    top: 2vw;
-    left: 6vw;
-  
+    
 }
 .add{
     height: 20vh;
@@ -184,7 +182,7 @@
     height: auto;
 }
 .form{
-    height: 60vw;
+    height: 100%;
     background-color: antiquewhite;
     border-radius: 50px;
     
