@@ -98,6 +98,7 @@
         visibility: hidden;
         margin: 0;
     }
+    
    
 }
 .bt{
@@ -107,6 +108,7 @@
     .btn-group{
         visibility: hidden;
     }
+    
 }
 .pr a{
     text-decoration: none;
@@ -137,6 +139,7 @@
     height: 7rem;
     background-color: silver;
     border-radius: 10px;
+    margin-top: 5%;
     
 }
 .foot{
@@ -165,22 +168,14 @@
     position: relative;;
     top: 50%;
     margin-left: 50%;
-    overflow-: hidden;
+    
 }
 .btn-primary{
     font-size: 2vh;
 }
-.fifty ul { 
-    padding-top: 1vw; 
-    margin: 0; 
-    font-size: 1vw;
-    text-align: center;
-    list-style: none;
-}
-.fifty{
-    width: 100%;
-    height: auto;
-}
+
+
+
 .form{
     height: 100%;
     background-color: antiquewhite;
@@ -189,4 +184,80 @@
 }
 .select{
     visibility: inherit;
+}   
+.ninty{
+    /* background-color: aquamarine; */
+   height: 50vh;
+}
+.eighty{
+    /* background-color: blueviolet; */
+}
+.seventy
+{
+    /* background-color: rgb(255, 145, 0); */
+}
+.log{
+    /* background-image: url(https://img.freepik.com/free-vector/5g-networking-technology-background-vector-with-blue-digital-line_53876-126043.jpg?w=740&t=st=1677513347~exp=1677513947~hmac=d026146fc6a6eed28b274df3f6c0ee0d3211ac367d66658631f5896dc528b341); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.lo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(—Pngtree—technical\ abstract\ technology\ background\ with_1242357.jpg);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    height: 60vh;
+    width: 40vw;
+    background-color: rgba(240, 248, 255, 0.062);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 50vw;
+}
+@media only screen and (max-width: 768px){
+    .login{
+       background: none;
+       width: 100vh;
+       height: 100vh;
+    }
+    .log{
+        margin-top: 1%;
+    }
+    .login:hover{
+        width: 80vw;
+        height: 64vh;
+        transition: 500ms;
+    }
+    .login:not(:hover)
+    {
+        width: 75vw;
+        height: 60vh;
+        transition: 500ms;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .login:hover{
+        width: 44vw;
+        height: 68vh;
+        transition: 500ms;
+    }
+    .login:not(:hover)
+    {
+        width: 40vw;
+        height: 60vh;
+        transition: 500ms;
+    }
 }
