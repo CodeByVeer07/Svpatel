@@ -213,7 +213,7 @@
     background-size: cover;
     background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
     width: 100vw;
-    
+    background-position:center;
     display: flex;
     justify-content: center;
     align-items: center;
